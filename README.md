@@ -1,6 +1,6 @@
 # Creación de Videojuegos
 <p align="center">
-    <img src="https://media.es.wired.com/photos/6442f341a566376ee967ba24/16:9/w_2560%2Cc_limit/GettyImages-1424828162.jpg" alt="Logo" width=1200 height=350>
+    <img src="https://media.es.wired.com/photos/6442f341a566376ee967ba24/16:9/w_2560%2Cc_limit/GettyImages-1424828162.jpg" alt="Logo" width=1200 height=385>
 
   <p align="center">
     Repositorio para documentar las lecciones y desafíos desarrollados con Unity. 
@@ -9,42 +9,154 @@
 
 
 ## Contenido
-- [Código Fuente](#código-fuente)
+- [Lecciones](#lecciones)
+- [Desafíos](#desafíos)
 - [Autor](#autora)
-- [Copyright](#copyright)
 
-## Código Fuente
+## Lecciones
 
-* Lección 1
-  * > Tutorial
-  * > Laboratorio
-  * > Desafío
-  * > Prueba
-* Lección 2
-  * > Tutorial
-  * > Laboratorio
-  * > Desafío
-  * > Prueba
-* Lección 3
-  * > Tutorial
-  * > Laboratorio
-  * > Desafío
-  * > Prueba
-* Lección 4
-  * > Tutorial
-  * > Laboratorio
-  * > Desafío
-  * > Prueba
-* Lección 5
-  * > Tutorial
-  * > Laboratorio
-  * > Desafío
-  * > Prueba
-* VideoJuego
+### Lección 1 - Control del jugador
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/512fd9d1-508c-4abc-aea3-8c087de974ae" alt="image">
+</p>
 
+  * > Descripción:
+<p align="justify">
+Este proyecto en Unity presenta una camioneta pickup roja, con un componente Rigidbody que tiene una masa de 20,000, lo que permite una simulación realista de su física. El vehículo también cuenta con un Mesh Collider.
+La camioneta se controla mediante un script llamado MuevePerrona, que permite al jugador mover el vehículo hacia adelante, atrás y girar, utilizando las teclas W (adelante), S (atrás), A (izquierda), D (derecha), o las flechas del teclado. El script toma los inputs horizontales y verticales del jugador para mover el vehículo usando la función Translate para avanzar y Rotate para girar.
+El escenario incluye diversos obstáculos distribuidos a lo largo de una carretera que deben ser esquivados por el jugador.
+</p>
+
+  * > [Aplicación Unity](https://github.com/kueb0/Videojuegos-Unity/blob/main/Prototipo1/Prototipo1-unidad1_AlvarezSandra.unitypackage)
+  * > Creado el 13 de septiembre por Sandra Karina Álvarez González.
+
+### Lección 2 - Jugabilidad básica
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/475c97fa-f672-4ecb-b9f3-788bfdf23c9d")
+</p>
+
+  * > Descripción:
+<p align="justify">
+Se presenta un entorno en el que un jugador puede moverse de izquierda a derecha y disparar alimento (una pera) para destruir a tres diferentes tipos de animales. Tanto los animales como la pera tienen un Box Collider para manejar las colisiones.
+
+El player está controlado por el script PlayerController, que permite su movimiento horizontal usando las teclas de dirección. El jugador tiene límites definidos, por lo que no puede desplazarse más allá de ciertos puntos. Además, el jugador puede disparar una pera usando la barra espaciadora, la pera se genera en la posición actual del jugador. Los animales y la pera utilizan el script Move, que les permite avanzar a lo largo del eje Z. Cuando un animal o la pera exceden ciertos límites en el escenario, son destruidos automáticamente. 
+
+El script DetectaColision se encarga de las colisiones. Cuando la pera colisiona con un animal, ambos objetos se destruyen, simulando que el animal ha sido eliminado. Por último, el script CreaAnimales, aplicado a un objeto vacío, genera nuevos animales aleatoriamente a intervalos regulares.
+</p>
+
+  * > [Aplicación Unity](https://github.com/kueb0/Videojuegos-Unity/blob/main/Prototipo2/Prototipo2.unitypackage)
+  * > [Evidencia del proceso](https://github.com/kueb0/Videojuegos-Unity/blob/main/Prototipo2/Prototipo2_EvidenciaProceso.pdf)
+  * > Creado el 25 de septiembre por Sandra Karina Álvarez González.
+
+### Lección 2 - Jugabilidad básica - First Game 2D
+#### PARTE 1
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/735440ca-7b84-4bb3-aae1-03e5ca9cdfc7")
+</p>
+
+  * > Descripción:
+<p align="justify">
+
+First Game 2D, utiliza imágenes PNG para crear un juego en 2D con sprites animados. Las imágenes fueron importadas y configuradas adecuadamente con el tipo de textura Sprite (2D and UI), el modo de sprite configurado como Multiple, y el Filter Mode establecido en Point (no filter) para mantener la calidad pixelada.
+
+Para el jugador y los enemigos, se crearon objetos vacíos (empties) a los cuales se les añadió el componente Sprite Renderer. Posteriormente, las imágenes cortadas correspondientes a los diferentes movimientos de cada personaje fueron asignadas a estos objetos vacíos, y se guardaron como animaciones.
+
+Este proceso se repitió tanto para el jugador como para el primer enemigo, y luego se creó un segundo enemigo desde cero. De esta forma, se estableció un flujo de trabajo para crear animaciones 2D a partir de sprites, implementando movimientos y acciones visuales mediante las secuencias de imágenes.
+</p> 
+
+  * > [Aplicación Unity](https://github.com/kueb0/Videojuegos-Unity/blob/main/FirstGame2D/Parte%201/FirstGame2D_PARTE1.unitypackage)
+  * > [Evidencia del proceso](https://github.com/kueb0/Videojuegos-Unity/blob/main/FirstGame2D/Parte%201/LECCI%C3%93N2_GAME2D_SandraKarinaAlvarezGonzalez.pdf)
+  * > Creado el 07 de ocubre por Sandra Karina Álvarez González.
+
+<!-- #### PARTE 2
+<p align="center">
+  <img src="")
+</p>
+  * > Descripción: 
+<p align="justify">
+
+</p> 
+  * > [Aplicación Unity]()
+  * > [Evidencia del proceso]()
+  * > Creado el 13 de septiembre por Sandra Karina Álvarez González.
+
+#### PARTE 3
+<p align="center">
+  <img src="")
+</p>
+  * > Descripción: 
+<p align="justify">
+
+</p> 
+  * > [Aplicación Unity]()
+  * > [Evidencia del proceso]()
+  * > Creado el 13 de septiembre por Sandra Karina Álvarez González. -->
+
+<!-- ### Lección 3 - Sonidos y efectos
+<p align="center">
+  <img src="")
+</p>
+  * > Descripción: 
+<p align="justify">
+
+</p> 
+  * > [Aplicación Unity]()
+  * > [Evidencia del proceso]()
+  * > Creado el 13 de septiembre por Sandra Karina Álvarez González.
+
+### Lección 4 - Mecánicas de jugabilidad 
+<p align="center">
+  <img src="")
+</p>
+  * > Descripción: 
+<p align="justify">
+
+</p> 
+  * > [Aplicación Unity]()
+  * > [Evidencia del proceso]()
+  * > Creado el 13 de septiembre por Sandra Karina Álvarez González.
+
+### Lección 5 - Interfaz de usuario
+<p align="center">
+  <img src="")
+</p>
+  * > Descripción: 
+<p align="justify">
+
+</p> 
+  * > [Aplicación Unity]()
+  * > [Evidencia del proceso]()
+  * > Creado el 13 de septiembre por Sandra Karina Álvarez González. -->
+
+## Desafíos
+
+### Desafío 1 - Control del jugador
+<!--  * > Tutorial
+  * > Laboratorio
+  * > Desafío
+  * > Prueba -->
+### Desafío 2 - Jugabilidad básica
+<!--  * > Tutorial
+  * > Laboratorio
+  * > Desafío
+  * > Prueba -->
+### Desafío 3 - Sonidos y efectos
+ <!-- > Tutorial
+  * > Laboratorio
+  * > Desafío
+  * > Prueba -->
+### Desafío 4 - Mecánicas de jugabilidad 
+<!--  * > Tutorial
+  * > Laboratorio
+  * > Desafío
+  * > Prueba -->
+### Desafío 5 - Interfaz de usuario
+<!--  * > Tutorial
+  * > Laboratorio
+  * > Desafío
+  * > Prueba -->
 
 ## Autora
-Sandra Karina Álvarez González / Developer [kueb0] http://github.com/kueb0 
+Sandra Karina Álvarez González / Developer [kueb0](http://github.com/kueb0) 
 
-## Copyright
-Derechos Reservados 2022
