@@ -69,19 +69,25 @@ Este proceso se repitió tanto para el jugador como para el primer enemigo, y lu
   * > [Evidencia del proceso](https://github.com/kueb0/Videojuegos-Unity/blob/main/FirstGame2D/Parte%201/LECCI%C3%93N2_GAME2D_SandraKarinaAlvarezGonzalez.pdf)
   * > Creado el 07 de ocubre por Sandra Karina Álvarez González.
 
-<!-- #### PARTE 2
+#### PARTE 2
 <p align="center">
-  <img src="")
+  <img src="https://github.com/user-attachments/assets/d6f66bee-8f01-43f8-a549-4a0958b4d572")
 </p>
+
   * > Descripción: 
 <p align="justify">
+En este proyecto se añaden características físicas y de animación al player. Se implementan componentes como Box Collider 2D y Rigidbody 2D dinámico, configurando la gravedad en 0 para evitar que el personaje caiga. Además, se le asigna el tag de "Player" y una layer llamada "Blocking", mientras que la sorting layer se configura bajo el nombre "Characters". El objeto del player se convierte en un prefab, reemplazando su instancia en la jerarquía.
 
+En cuanto a las animaciones, en la pestaña Animator, se conectan las diferentes animaciones del player con el estado Any State usando la opción Make Transition. Se añade un parámetro del tipo Int llamado AnimationState en la pestaña de Parameters. Cada animación se configura con una transición sin duración (0) y una condición basada en el valor del parámetro AnimationState.
+
+El personaje puede caminar en cuatro direcciones (norte, sur, este y oeste), además de tener una posición inicial en estado de idle (sin movimiento). El script MovementController controla el movimiento y las animaciones del jugador. Se define una velocidad de movimiento y se utiliza un Rigidbody2D para aplicar la física. El script también gestiona un componente Animator que permite cambiar entre los estados de animación dependiendo de la dirección en la que se mueva el jugador.
 </p> 
-  * > [Aplicación Unity]()
-  * > [Evidencia del proceso]()
-  * > Creado el 13 de septiembre por Sandra Karina Álvarez González.
 
-#### PARTE 3
+  * > [Aplicación Unity](https://github.com/kueb0/Videojuegos-Unity/blob/main/FirstGame2D/Parte%202/FirstGame2D_Parte2.unitypackage)
+  * > [Evidencia del proceso](https://github.com/kueb0/Videojuegos-Unity/blob/main/FirstGame2D/Parte%202/LECCI%C3%93N2_GAME2D_PARTE2_SandraKarinaAlvarezGonzalez.pdf)
+  * > Creado el 09 de octubre por Sandra Karina Álvarez González.
+
+<!-- #### PARTE 3
 <p align="center">
   <img src="")
 </p>
