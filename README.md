@@ -48,7 +48,7 @@ El script DetectaColision se encarga de las colisiones. Cuando la pera colisiona
   * > [Evidencia del proceso](https://github.com/kueb0/Videojuegos-Unity/blob/main/Prototipo2/Prototipo2_EvidenciaProceso.pdf)
   * > Creado el 25 de septiembre por Sandra Karina Álvarez González.
 
-### Lección 2 - Jugabilidad básica - First Game 2D
+### Lección 3 - First Game 2D
 #### PARTE 1
 
 <p align="center">
@@ -71,7 +71,7 @@ Este proceso se repitió tanto para el jugador como para el primer enemigo, y lu
 
 #### PARTE 2
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d6f66bee-8f01-43f8-a549-4a0958b4d572")
+  <img src="https://github.com/user-attachments/assets/441d5d38-4d21-4bc6-be5b-43e273a90b3b")
 </p>
 
   * > Descripción: 
