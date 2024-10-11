@@ -135,33 +135,6 @@ El personaje puede caminar en cuatro direcciones (norte, sur, este y oeste), ade
   * > [Evidencia del proceso]()
   * > Creado el 13 de septiembre por Sandra Karina Álvarez González. -->
 
-## Desafíos
-
-### Desafío 1 - Control del jugador
-<!--  * > Tutorial
-  * > Laboratorio
-  * > Desafío
-  * > Prueba -->
-### Desafío 2 - Jugabilidad básica
-<!--  * > Tutorial
-  * > Laboratorio
-  * > Desafío
-  * > Prueba -->
-### Desafío 3 - Sonidos y efectos
- <!-- > Tutorial
-  * > Laboratorio
-  * > Desafío
-  * > Prueba -->
-### Desafío 4 - Mecánicas de jugabilidad 
-<!--  * > Tutorial
-  * > Laboratorio
-  * > Desafío
-  * > Prueba -->
-### Desafío 5 - Interfaz de usuario
-<!--  * > Tutorial
-  * > Laboratorio
-  * > Desafío
-  * > Prueba -->
 
 ## Autora
 Sandra Karina Álvarez González / Developer [kueb0](http://github.com/kueb0) 
