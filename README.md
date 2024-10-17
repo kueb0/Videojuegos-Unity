@@ -28,7 +28,7 @@ El escenario incluye diversos obstáculos distribuidos a lo largo de una carrete
 </p>
 
   * > [Aplicación Unity](https://github.com/kueb0/Videojuegos-Unity/blob/main/Prototipo1/Prototipo1-unidad1_AlvarezSandra.unitypackage)
-  * > Creado el 13 de septiembre por Sandra Karina Álvarez González.
+  * > Creado el 13 de septiembre del 2024 por Sandra Karina Álvarez González.
 
 ### Lección 2 - Jugabilidad básica
 <p align="center">
@@ -46,7 +46,7 @@ El script DetectaColision se encarga de las colisiones. Cuando la pera colisiona
 
   * > [Aplicación Unity](https://github.com/kueb0/Videojuegos-Unity/blob/main/Prototipo2/Prototipo2.unitypackage)
   * > [Evidencia del proceso](https://github.com/kueb0/Videojuegos-Unity/blob/main/Prototipo2/Prototipo2_EvidenciaProceso.pdf)
-  * > Creado el 25 de septiembre por Sandra Karina Álvarez González.
+  * > Creado el 25 de septiembre del 2024 por Sandra Karina Álvarez González.
 
 ### Lección 3 - First Game 2D
 #### PARTE 1
@@ -67,7 +67,7 @@ Este proceso se repitió tanto para el jugador como para el primer enemigo, y lu
 
   * > [Aplicación Unity](https://github.com/kueb0/Videojuegos-Unity/blob/main/FirstGame2D/Parte%201/FirstGame2D_PARTE1.unitypackage)
   * > [Evidencia del proceso](https://github.com/kueb0/Videojuegos-Unity/blob/main/FirstGame2D/Parte%201/LECCI%C3%93N2_GAME2D_SandraKarinaAlvarezGonzalez.pdf)
-  * > Creado el 07 de ocubre por Sandra Karina Álvarez González.
+  * > Creado el 07 de ocubre del 2024 por Sandra Karina Álvarez González.
 
 #### PARTE 2
 <p align="center">
@@ -83,11 +83,29 @@ En cuanto a las animaciones, en la pestaña Animator, se conectan las diferentes
 El personaje puede caminar en cuatro direcciones (norte, sur, este y oeste), además de tener una posición inicial en estado de idle (sin movimiento). El script MovementController controla el movimiento y las animaciones del jugador. Se define una velocidad de movimiento y se utiliza un Rigidbody2D para aplicar la física. El script también gestiona un componente Animator que permite cambiar entre los estados de animación dependiendo de la dirección en la que se mueva el jugador.
 </p> 
 
+
+
   * > [Aplicación Unity](https://github.com/kueb0/Videojuegos-Unity/blob/main/FirstGame2D/Parte%202/FirstGame2D_Parte2.unitypackage)
   * > [Evidencia del proceso](https://github.com/kueb0/Videojuegos-Unity/blob/main/FirstGame2D/Parte%202/LECCI%C3%93N2_GAME2D_PARTE2_SandraKarinaAlvarezGonzalez.pdf)
-  * > Creado el 09 de octubre por Sandra Karina Álvarez González.
+  * > Creado el 09 de octubre del 2024 por Sandra Karina Álvarez González.
 
-<!-- #### PARTE 3
+#### PARTE 3
+<p align="center">
+  <img src="")
+</p>
+
+  * > Descripción: 
+<p align="justify">
+Se creó un entorno más detallado utilizando herramientas como Tile Palette y Cinemachine. Se implementaron múltiples Tilemaps, específicamente una capa de suelo y otra de obstáculos, que incluyen elementos como árboles y piedras. Para controlar la superposición de objetos y evitar espacios en blanco, se usaron Sorting Layers, asignando la capa correspondiente a cada Tilemap. Además, se añadieron Tilemap Colliders 2D combinados con Composite Colliders para definir las zonas inaccesibles.
+    
+Se utilizó Cinemachine para seguir al jugador de forma fluida, añadiendo un collider para evitar que la cámara lo siga más allá de los límites del entorno. La estabilidad de la cámara se optimizó mediante la aplicación de materiales y un script personalizado que alinea los movimientos de la cámara con una cuadrícula basada en píxeles, evitando movimientos inconsistentes. El Movement Controller mantiene la lógica de desplazamiento en cuatro direcciones, permitiendo al jugador explorar el entorno diseñado.
+</p> 
+
+  * > [Aplicación Unity](https://github.com/kueb0/Videojuegos-Unity/blob/main/FirstGame2D/Parte%203/FirstGame2D_PARTE3.unitypackage)
+  * > [Evidencia del proceso](https://github.com/kueb0/Videojuegos-Unity/blob/main/FirstGame2D/Parte%203/FirstGame2D_PARTE3.pdf)
+  * > Creado el 16 de octubre del 2024 por Sandra Karina Álvarez González. 
+
+#### PARTE 4
 <p align="center">
   <img src="")
 </p>
@@ -95,11 +113,11 @@ El personaje puede caminar en cuatro direcciones (norte, sur, este y oeste), ade
 <p align="justify">
 
 </p> 
-  * > [Aplicación Unity]()
-  * > [Evidencia del proceso]()
-  * > Creado el 13 de septiembre por Sandra Karina Álvarez González. -->
+  * > [Aplicación Unity](https://github.com/kueb0/Videojuegos-Unity/blob/main/FirstGame2D/Parte%203/FirstGame2D_PARTE3.unitypackage)
+  * > [Evidencia del proceso](https://github.com/kueb0/Videojuegos-Unity/blob/main/FirstGame2D/Parte%203/FirstGame2D_PARTE3.pdf)
+  * > Creado el 13 de septiembre del 2024 por Sandra Karina Álvarez González. 
 
-<!-- ### Lección 3 - Sonidos y efectos
+#### PARTE 5
 <p align="center">
   <img src="")
 </p>
@@ -111,7 +129,7 @@ El personaje puede caminar en cuatro direcciones (norte, sur, este y oeste), ade
   * > [Evidencia del proceso]()
   * > Creado el 13 de septiembre por Sandra Karina Álvarez González.
 
-### Lección 4 - Mecánicas de jugabilidad 
+<!-- ### Lección 4 - Mecánicas de jugabilidad 
 <p align="center">
   <img src="")
 </p>
