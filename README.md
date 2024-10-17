@@ -7,10 +7,14 @@
   </p>
 </p>
 
-
 ## Contenido
 - [Lecciones](#lecciones)
-- [Desafíos](#desafíos)
+  - [Lección 1 - Control del jugador](#lección-1---control-del-jugador)
+  - [Lección 2 - Jugabilidad básica](#lección-2---jugabilidad-básica)
+  - [Lección 3 - First Game 2D](#lección-3---first-game-2d)
+    - [Parte 1](#parte-1)
+    - [Parte 2](#parte-2)
+    - [Parte 3](#parte-3)
 - [Autor](#autora)
 
 ## Lecciones
@@ -91,7 +95,7 @@ El personaje puede caminar en cuatro direcciones (norte, sur, este y oeste), ade
 
 #### PARTE 3
 <p align="center">
-  <img src="")
+  <img src="https://github.com/user-attachments/assets/e8205906-d809-45bb-be3c-ea85ce2d627e")
 </p>
 
   * > Descripción: 
@@ -99,7 +103,8 @@ El personaje puede caminar en cuatro direcciones (norte, sur, este y oeste), ade
 Se creó un entorno más detallado utilizando herramientas como Tile Palette y Cinemachine. Se implementaron múltiples Tilemaps, específicamente una capa de suelo y otra de obstáculos, que incluyen elementos como árboles y piedras. Para controlar la superposición de objetos y evitar espacios en blanco, se usaron Sorting Layers, asignando la capa correspondiente a cada Tilemap. Además, se añadieron Tilemap Colliders 2D combinados con Composite Colliders para definir las zonas inaccesibles.
     
 Se utilizó Cinemachine para seguir al jugador de forma fluida, añadiendo un collider para evitar que la cámara lo siga más allá de los límites del entorno. La estabilidad de la cámara se optimizó mediante la aplicación de materiales y un script personalizado que alinea los movimientos de la cámara con una cuadrícula basada en píxeles, evitando movimientos inconsistentes. El Movement Controller mantiene la lógica de desplazamiento en cuatro direcciones, permitiendo al jugador explorar el entorno diseñado.
-</p> 
+</p>
+
 
   * > [Aplicación Unity](https://github.com/kueb0/Videojuegos-Unity/blob/main/FirstGame2D/Parte%203/FirstGame2D_PARTE3.unitypackage)
   * > [Evidencia del proceso](https://github.com/kueb0/Videojuegos-Unity/blob/main/FirstGame2D/Parte%203/FirstGame2D_PARTE3.pdf)
