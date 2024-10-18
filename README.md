@@ -110,19 +110,21 @@ Se utilizó Cinemachine para seguir al jugador de forma fluida, añadiendo un co
   * > [Evidencia del proceso](https://github.com/kueb0/Videojuegos-Unity/blob/main/FirstGame2D/Parte%203/FirstGame2D_PARTE3.pdf)
   * > Creado el 16 de octubre del 2024 por Sandra Karina Álvarez González. 
 
-<!-- #### PARTE 4
+#### PARTE 4
 <p align="center">
-  <img src="")
+  <img src="https://github.com/user-attachments/assets/c7f4d003-306a-4997-88e7-3d5d29890773")
 </p>
+
   * > Descripción: 
 <p align="justify">
 
 </p> 
-  * > [Aplicación Unity](https://github.com/kueb0/Videojuegos-Unity/blob/main/FirstGame2D/Parte%203/FirstGame2D_PARTE3.unitypackage)
-  * > [Evidencia del proceso](https://github.com/kueb0/Videojuegos-Unity/blob/main/FirstGame2D/Parte%203/FirstGame2D_PARTE3.pdf)
-  * > Creado el 13 de septiembre del 2024 por Sandra Karina Álvarez González. 
 
-#### PARTE 5
+  * > [Aplicación Unity](https://github.com/kueb0/Videojuegos-Unity/blob/main/FirstGame2D/Parte%204/FirstGame2D_PARTE4.unitypackage)
+  * > [Evidencia del proceso](https://github.com/kueb0/Videojuegos-Unity/blob/main/FirstGame2D/Parte%204/FirstGame2D_PARTE4.pdf)
+  * > Creado el 17 de octubre del 2024 por Sandra Karina Álvarez González. 
+
+<!-- #### PARTE 5
 <p align="center">
   <img src="")
 </p>
