@@ -16,6 +16,8 @@
     - [Parte 2](#parte-2)
     - [Parte 3](#parte-3)
     - [Parte 4](#parte-4)
+    - [Parte 5](#parte-5)
+- [Desafios](#desafios)
 - [Autor](#autora)
 
 ## Lecciones
@@ -32,7 +34,7 @@ La camioneta se controla mediante un script llamado MuevePerrona, que permite al
 El escenario incluye diversos obstáculos distribuidos a lo largo de una carretera que deben ser esquivados por el jugador.
 </p>
 
-  * > [Aplicación Unity](https://github.com/kueb0/Videojuegos-Unity/blob/main/Prototipo1/Prototipo1-unidad1_AlvarezSandra.unitypackage)
+  * > [Aplicación Unity](https://github.com/kueb0/Videojuegos-Unity/blob/main/Prototipos/Prototipo1/Prototipo1-unidad1_AlvarezSandra.unitypackage)
   * > Creado el 13 de septiembre del 2024 por Sandra Karina Álvarez González.
 
 ### Lección 2 - Jugabilidad básica
@@ -49,8 +51,8 @@ El player está controlado por el script PlayerController, que permite su movimi
 El script DetectaColision se encarga de las colisiones. Cuando la pera colisiona con un animal, ambos objetos se destruyen, simulando que el animal ha sido eliminado. Por último, el script CreaAnimales, aplicado a un objeto vacío, genera nuevos animales aleatoriamente a intervalos regulares.
 </p>
 
-  * > [Aplicación Unity](https://github.com/kueb0/Videojuegos-Unity/blob/main/Prototipo2/Prototipo2.unitypackage)
-  * > [Evidencia del proceso](https://github.com/kueb0/Videojuegos-Unity/blob/main/Prototipo2/Prototipo2_EvidenciaProceso.pdf)
+  * > [Aplicación Unity](https://github.com/kueb0/Videojuegos-Unity/blob/main/Prototipos/Prototipo2/Prototipo2.unitypackage)
+  * > [Evidencia del proceso](https://github.com/kueb0/Videojuegos-Unity/blob/main/Prototipos/Prototipo2/LECCI%C3%93N2_SandraKarinaAlvarezGonzalez.pdf)
   * > Creado el 25 de septiembre del 2024 por Sandra Karina Álvarez González.
 
 ### Lección 3 - First Game 2D
@@ -70,8 +72,8 @@ Para el jugador y los enemigos, se crearon objetos vacíos (empties) a los cuale
 Este proceso se repitió tanto para el jugador como para el primer enemigo, y luego se creó un segundo enemigo desde cero. De esta forma, se estableció un flujo de trabajo para crear animaciones 2D a partir de sprites, implementando movimientos y acciones visuales mediante las secuencias de imágenes.
 </p> 
 
-  * > [Aplicación Unity](https://github.com/kueb0/Videojuegos-Unity/blob/main/FirstGame2D/Parte%201/FirstGame2D_PARTE1.unitypackage)
-  * > [Evidencia del proceso](https://github.com/kueb0/Videojuegos-Unity/blob/main/FirstGame2D/Parte%201/LECCI%C3%93N2_GAME2D_SandraKarinaAlvarezGonzalez.pdf)
+  * > [Aplicación Unity](https://github.com/kueb0/Videojuegos-Unity/blob/main/Prototipos/FirstGame2D/Parte%201/FirstGame2D_PARTE1.unitypackage)
+  * > [Evidencia del proceso](https://github.com/kueb0/Videojuegos-Unity/blob/main/Prototipos/FirstGame2D/Parte%201/LECCI%C3%93N2_GAME2D_SandraKarinaAlvarezGonzalez.pdf)
   * > Creado el 07 de ocubre del 2024 por Sandra Karina Álvarez González.
 
 #### PARTE 2
@@ -88,10 +90,8 @@ En cuanto a las animaciones, en la pestaña Animator, se conectan las diferentes
 El personaje puede caminar en cuatro direcciones (norte, sur, este y oeste), además de tener una posición inicial en estado de idle (sin movimiento). El script MovementController controla el movimiento y las animaciones del jugador. Se define una velocidad de movimiento y se utiliza un Rigidbody2D para aplicar la física. El script también gestiona un componente Animator que permite cambiar entre los estados de animación dependiendo de la dirección en la que se mueva el jugador.
 </p> 
 
-
-
-  * > [Aplicación Unity](https://github.com/kueb0/Videojuegos-Unity/blob/main/FirstGame2D/Parte%202/FirstGame2D_Parte2.unitypackage)
-  * > [Evidencia del proceso](https://github.com/kueb0/Videojuegos-Unity/blob/main/FirstGame2D/Parte%202/LECCI%C3%93N2_GAME2D_PARTE2_SandraKarinaAlvarezGonzalez.pdf)
+  * > [Aplicación Unity](https://github.com/kueb0/Videojuegos-Unity/blob/main/Prototipos/FirstGame2D/Parte%202/FirstGame2D_Parte2.unitypackage)
+  * > [Evidencia del proceso](https://github.com/kueb0/Videojuegos-Unity/blob/main/Prototipos/FirstGame2D/Parte%202/LECCI%C3%93N2_GAME2D_PARTE2_SandraKarinaAlvarezGonzalez.pdf)
   * > Creado el 09 de octubre del 2024 por Sandra Karina Álvarez González.
 
 #### PARTE 3
@@ -107,8 +107,8 @@ Se utilizó Cinemachine para seguir al jugador de forma fluida, añadiendo un co
 </p>
 
 
-  * > [Aplicación Unity](https://github.com/kueb0/Videojuegos-Unity/blob/main/FirstGame2D/Parte%203/FirstGame2D_PARTE3.unitypackage)
-  * > [Evidencia del proceso](https://github.com/kueb0/Videojuegos-Unity/blob/main/FirstGame2D/Parte%203/FirstGame2D_PARTE3.pdf)
+  * > [Aplicación Unity](https://github.com/kueb0/Videojuegos-Unity/blob/main/Prototipos/FirstGame2D/Parte%203/FirstGame2D_PARTE3.unitypackage)
+  * > [Evidencia del proceso](https://github.com/kueb0/Videojuegos-Unity/blob/main/Prototipos/FirstGame2D/Parte%203/FirstGame2D_PARTE3.pdf)
   * > Creado el 16 de octubre del 2024 por Sandra Karina Álvarez González. 
 
 #### PARTE 4
@@ -121,45 +121,108 @@ Se utilizó Cinemachine para seguir al jugador de forma fluida, añadiendo un co
 
 </p> 
 
-  * > [Aplicación Unity](https://github.com/kueb0/Videojuegos-Unity/blob/main/FirstGame2D/Parte%204/FirstGame2D_PARTE4.unitypackage)
-  * > [Evidencia del proceso](https://github.com/kueb0/Videojuegos-Unity/blob/main/FirstGame2D/Parte%204/FirstGame2D_PARTE4.pdf)
+  * > [Aplicación Unity](https://github.com/kueb0/Videojuegos-Unity/blob/main/Prototipos/FirstGame2D/Parte%204/FirstGame2D_PARTE4.unitypackage)
+  * > [Evidencia del proceso](https://github.com/kueb0/Videojuegos-Unity/blob/main/Prototipos/FirstGame2D/Parte%204/FirstGame2D_PARTE4.pdf)
   * > Creado el 17 de octubre del 2024 por Sandra Karina Álvarez González. 
 
-<!-- #### PARTE 5
+#### PARTE 5
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d51730ce-7095-446e-9936-913893f5fe2a")
+</p>
+
+  * > Descripción: 
+<p align="justify">
+
+</p> 
+
+  * > [Aplicación Unity](https://github.com/kueb0/Videojuegos-Unity/blob/main/Prototipos/FirstGame2D/Parte%205/FirsGame2D_PARTE5.unitypackage)
+  * > [Evidencia del proceso](https://github.com/kueb0/Videojuegos-Unity/blob/main/Prototipos/FirstGame2D/Parte%205/FirsGame2D_PARTE5.pdf)
+  * > Creado el 19 de octubre del 2024 por Sandra Karina Álvarez González.
+
+<!-- #### PARTE 6 
 <p align="center">
   <img src="")
 </p>
+
   * > Descripción: 
 <p align="justify">
 
 </p> 
   * > [Aplicación Unity]()
   * > [Evidencia del proceso]()
-  * > Creado el 13 de septiembre por Sandra Karina Álvarez González.
+  * > Creado el 13 de octubre del 2024 por Sandra Karina Álvarez González. -->
 
-<!-- ### Lección 4 - Mecánicas de jugabilidad 
+## Desafios
+
+<!-- ### Desafío 1
 <p align="center">
   <img src="")
 </p>
+
   * > Descripción: 
 <p align="justify">
 
 </p> 
+
   * > [Aplicación Unity]()
   * > [Evidencia del proceso]()
-  * > Creado el 13 de septiembre por Sandra Karina Álvarez González.
-
-### Lección 5 - Interfaz de usuario
+  * > Creado el 13 de octubre del 2024 por Sandra Karina Álvarez González. -->
+  
+  ### Desafío 2
 <p align="center">
-  <img src="")
+  <img src="https://github.com/user-attachments/assets/9491c39c-594e-444c-8496-1269e5f5e290")
 </p>
+
   * > Descripción: 
 <p align="justify">
 
 </p> 
+
+  * > [Aplicación Unity](https://github.com/kueb0/Videojuegos-Unity/blob/main/Desaf%C3%ADos/Challenge2/Challenge2.unitypackage)
+  * > [Evidencia del proceso](https://github.com/kueb0/Videojuegos-Unity/blob/main/Desaf%C3%ADos/Challenge2/Challenge2.pdf)
+  * > Creado el 18 de octubre del 2024 por Sandra Karina Álvarez González. 
+
+  <!-- ### Desafío 3
+<p align="center">
+  <img src="")
+</p>
+
+  * > Descripción: 
+<p align="justify">
+
+</p> 
+
   * > [Aplicación Unity]()
   * > [Evidencia del proceso]()
-  * > Creado el 13 de septiembre por Sandra Karina Álvarez González. -->
+  * > Creado el 13 de octubre del 2024 por Sandra Karina Álvarez González. 
+
+  ### Desafío 4
+<p align="center">
+  <img src="")
+</p>
+
+  * > Descripción: 
+<p align="justify">
+
+</p> 
+
+  * > [Aplicación Unity]()
+  * > [Evidencia del proceso]()
+  * > Creado el 13 de octubre del 2024 por Sandra Karina Álvarez González. 
+
+  ### Desafío 5
+<p align="center">
+  <img src="")
+</p>
+
+  * > Descripción: 
+<p align="justify">
+
+</p> 
+
+  * > [Aplicación Unity]()
+  * > [Evidencia del proceso]()
+  * > Creado el 13 de octubre del 2024 por Sandra Karina Álvarez González.-->
 
 
 ## Autora
