@@ -47,9 +47,11 @@ El escenario incluye diversos obstáculos distribuidos a lo largo de una carrete
   * > Descripción:
 <p align="justify">
 Se presenta un entorno en el que un jugador puede moverse de izquierda a derecha y disparar alimento (una pera) para destruir a tres diferentes tipos de animales. Tanto los animales como la pera tienen un Box Collider para manejar las colisiones.
-
+</p>
+<p align="justify">
 El player está controlado por el script PlayerController, que permite su movimiento horizontal usando las teclas de dirección. El jugador tiene límites definidos, por lo que no puede desplazarse más allá de ciertos puntos. Además, el jugador puede disparar una pera usando la barra espaciadora, la pera se genera en la posición actual del jugador. Los animales y la pera utilizan el script Move, que les permite avanzar a lo largo del eje Z. Cuando un animal o la pera exceden ciertos límites en el escenario, son destruidos automáticamente. 
-
+</p>
+<p align="justify">
 El script DetectaColision se encarga de las colisiones. Cuando la pera colisiona con un animal, ambos objetos se destruyen, simulando que el animal ha sido eliminado. Por último, el script CreaAnimales, aplicado a un objeto vacío, genera nuevos animales aleatoriamente a intervalos regulares.
 </p>
 
@@ -66,11 +68,12 @@ El script DetectaColision se encarga de las colisiones. Cuando la pera colisiona
 
   * > Descripción:
 <p align="justify">
-
 First Game 2D, utiliza imágenes PNG para crear un juego en 2D con sprites animados. Las imágenes fueron importadas y configuradas adecuadamente con el tipo de textura Sprite (2D and UI), el modo de sprite configurado como Multiple, y el Filter Mode establecido en Point (no filter) para mantener la calidad pixelada.
-
+</p> 
+<p align="justify">
 Para el jugador y los enemigos, se crearon objetos vacíos (empties) a los cuales se les añadió el componente Sprite Renderer. Posteriormente, las imágenes cortadas correspondientes a los diferentes movimientos de cada personaje fueron asignadas a estos objetos vacíos, y se guardaron como animaciones.
-
+</p> 
+<p align="justify">
 Este proceso se repitió tanto para el jugador como para el primer enemigo, y luego se creó un segundo enemigo desde cero. De esta forma, se estableció un flujo de trabajo para crear animaciones 2D a partir de sprites, implementando movimientos y acciones visuales mediante las secuencias de imágenes.
 </p> 
 
@@ -86,9 +89,11 @@ Este proceso se repitió tanto para el jugador como para el primer enemigo, y lu
   * > Descripción: 
 <p align="justify">
 En este proyecto se añaden características físicas y de animación al player. Se implementan componentes como Box Collider 2D y Rigidbody 2D dinámico, configurando la gravedad en 0 para evitar que el personaje caiga. Además, se le asigna el tag de "Player" y una layer llamada "Blocking", mientras que la sorting layer se configura bajo el nombre "Characters". El objeto del player se convierte en un prefab, reemplazando su instancia en la jerarquía.
-
+</p> 
+<p align="justify">
 En cuanto a las animaciones, en la pestaña Animator, se conectan las diferentes animaciones del player con el estado Any State usando la opción Make Transition. Se añade un parámetro del tipo Int llamado AnimationState en la pestaña de Parameters. Cada animación se configura con una transición sin duración (0) y una condición basada en el valor del parámetro AnimationState.
-
+</p> 
+<p align="justify">
 El personaje puede caminar en cuatro direcciones (norte, sur, este y oeste), además de tener una posición inicial en estado de idle (sin movimiento). El script MovementController controla el movimiento y las animaciones del jugador. Se define una velocidad de movimiento y se utiliza un Rigidbody2D para aplicar la física. El script también gestiona un componente Animator que permite cambiar entre los estados de animación dependiendo de la dirección en la que se mueva el jugador.
 </p> 
 
@@ -104,7 +109,8 @@ El personaje puede caminar en cuatro direcciones (norte, sur, este y oeste), ade
   * > Descripción: 
 <p align="justify">
 Se creó un entorno más detallado utilizando herramientas como Tile Palette y Cinemachine. Se implementaron múltiples Tilemaps, específicamente una capa de suelo y otra de obstáculos, que incluyen elementos como árboles y piedras. Para controlar la superposición de objetos y evitar espacios en blanco, se usaron Sorting Layers, asignando la capa correspondiente a cada Tilemap. Además, se añadieron Tilemap Colliders 2D combinados con Composite Colliders para definir las zonas inaccesibles.
-    
+</p>
+<p align="justify">
 Se utilizó Cinemachine para seguir al jugador de forma fluida, añadiendo un collider para evitar que la cámara lo siga más allá de los límites del entorno. La estabilidad de la cámara se optimizó mediante la aplicación de materiales y un script personalizado que alinea los movimientos de la cámara con una cuadrícula basada en píxeles, evitando movimientos inconsistentes. El Movement Controller mantiene la lógica de desplazamiento en cuatro direcciones, permitiendo al jugador explorar el entorno diseñado.
 </p>
 
@@ -120,7 +126,13 @@ Se utilizó Cinemachine para seguir al jugador de forma fluida, añadiendo un co
 
   * > Descripción: 
 <p align="justify">
-
+En esta fase del desarrollo de FirstGame2D, se reordenaron los scripts en carpetas específicas: Monobehaviours y ScriptableObjects. Se añadieron los sprites de las monedas y los corazones. Las monedas se configuraron con la Sorting Layer en "objects", un collider con Is Trigger activado, el Tag "CanBePickedUp" y la capa "consumables". Para las monedas se añadió un script Consumable, donde el objeto es de tipo COIN. Los corazones se configuraron de manera similar, con el tag "CanBePickedUp", la capa "consumables", y el script Consumable asignado a un objeto del tipo HEALTH.
+</p> 
+<p align="justify">
+El jugador se mantuvo en la capa Blocking. Se crearon nuevas capas para diferenciar entre consumables (monedas y corazones) y enemies. En los ajustes de proyecto, específicamente en Physics 2D, se deseleccionó la casilla de intersección entre las capas de consumables y enemies, para evitar conflictos de interacción. Se implementó la lógica para que, al pasar sobre una moneda, esta desaparezca y se registre la acción en la consola. Aunque todavía no se han agregado los corazones a la escena del juego, la mecánica de recolección ya está parcialmente funcional.
+</p> 
+<p align="justify">
+En cuanto a los scripts, se añadieron varias clases nuevas. Character es una clase abstracta que representa a cualquier tipo de personaje en el juego y contiene atributos como puntos de vida actuales y máximos. El script Consumable gestiona los objetos que el jugador puede recoger. Player, que hereda de Character, maneja las colisiones con objetos recolectables y ajusta los puntos de vida cuando el jugador recoge un corazón. Finalmente, en la carpeta ScriptableObjects, se creó un script para definir los Items, permitiendo que cada objeto recolectable tenga atributos como nombre, sprite, cantidad, si es apilable, y su tipo (como moneda o corazón).
 </p> 
 
   * > [Aplicación Unity](https://github.com/kueb0/Videojuegos-Unity/blob/main/Prototipos/FirstGame2D/Parte%204/FirstGame2D_PARTE4.unitypackage)
