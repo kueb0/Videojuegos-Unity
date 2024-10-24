@@ -18,6 +18,8 @@
     - [Parte 4](#parte-4)
     - [Parte 5](#parte-5)
 - [Desafios](#desafios)
+  - [Desafío 1](#desafío-1)
+  - [Desafío 2](#desafío-2)
 - [Autor](#autora)
 
 ## Lecciones
@@ -152,11 +154,11 @@ Se utilizó Cinemachine para seguir al jugador de forma fluida, añadiendo un co
   * > [Evidencia del proceso]()
   * > Creado el 13 de octubre del 2024 por Sandra Karina Álvarez González. -->
 
-## Desafios
+## Desafíos
 
-<!-- ### Desafío 1
+### Desafío 1
 <p align="center">
-  <img src="")
+  <img src="https://github.com/user-attachments/assets/e26aa970-6992-4120-a869-a14b6c1da7c2")
 </p>
 
   * > Descripción: 
@@ -164,9 +166,9 @@ Se utilizó Cinemachine para seguir al jugador de forma fluida, añadiendo un co
 
 </p> 
 
-  * > [Aplicación Unity]()
-  * > [Evidencia del proceso]()
-  * > Creado el 13 de octubre del 2024 por Sandra Karina Álvarez González. -->
+  * > [Aplicación Unity](https://github.com/kueb0/Videojuegos-Unity/blob/main/Desaf%C3%ADos/Challenge1/Challenge1.unitypackage)
+  * > [Evidencia del proceso](https://github.com/kueb0/Videojuegos-Unity/blob/main/Desaf%C3%ADos/Challenge1/Challenge1.pdf)
+  * > Creado el 23 de octubre del 2024 por Sandra Karina Álvarez González.
   
   ### Desafío 2
 <p align="center">
