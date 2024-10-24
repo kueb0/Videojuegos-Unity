@@ -17,7 +17,7 @@
     - [Parte 3](#parte-3)
     - [Parte 4](#parte-4)
     - [Parte 5](#parte-5)
-- [Desafios](#desafios)
+- [Desafíos](#desafíos)
   - [Desafío 1](#desafío-1)
   - [Desafío 2](#desafío-2)
 - [Autor](#autora)
