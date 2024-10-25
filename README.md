@@ -181,7 +181,10 @@ Además, se modificó la clase Character para incluir una variable hitPoints, qu
 
   * > Descripción: 
 <p align="justify">
-
+Se abordaron los siguientes problemas en el funcionamiento del avión: avanzaba hacia atrás en lugar de adelante; era demasiado rápido; se inclinaba de manera automática; la cámara estaba frente al avión y no lo seguía adecuadamente y la hélice no giraba. Para resolver estos problemas se ajustaron algunos scripts y configuraciones en Unity.
+</p> 
+<p align="justify">
+En cuanto a la cámara, se estableció su posición en (30, 0, 10) y su rotación en (0, -90, 0) para que siguiera al avión desde atrás, logrando una perspectiva de tercera persona. Luego, se corrigieron tres scripts que resolvieron el comportamiento del avión y de la cámara. El primero, FollowPlayerX, hace que la cámara siga al avión manteniendo un desplazamiento fijo para dar la impresión de que la cámara está siempre detrás del avión. El segundo script, PlayerControllerX, controla el movimiento del avión, obteniendo la entrada del usuario a través de las flechas de dirección. Finalmente, el tercer script, SpinPropellerX, hace girar la hélice del avión continuamente, dándole un efecto visual de movimiento constante. En cada actualización, la hélice rota en el eje forward a una velocidad predefinida.
 </p> 
 
   * > [Aplicación Unity](https://github.com/kueb0/Videojuegos-Unity/blob/main/Desaf%C3%ADos/Challenge1/Challenge1.unitypackage)
@@ -195,7 +198,10 @@ Además, se modificó la clase Character para incluir una variable hitPoints, qu
 
   * > Descripción: 
 <p align="justify">
-
+Se corrigieron los siguientes aspectos: los perros aparecían en la parte superior de la pantalla; el jugador lanzaba pelotas en lugar de perros; las pelotas se destruían antes de acercarse a los perros; nada desaparecía al salir de la escena; sólo un tipo de pelota aparecía; las pelotas se lanzaban a intervalos idénticos y el jugador podía lanzar perros sin esperar un intervalo de tiempo. Para resolver estos problemas, se reorganizaron los prefabs en los objetos correctos dentro de Unity: las pelotas se asignaron al SpawnManager y los perros al PlayerObject. Luego, se ajustó el Box Collider de los perros con Edit Collider para corregir las interacciones.  
+</p> 
+<p align="justify">
+Posteriormente, se corrigieron tres scripts. DestroyOutOfBoundsX destruye objetos que salen de los límites de la escena: los perros son destruidos si su posición x es menor que un límite izquierdo definido y las pelotas son destruidas si su posición y es menor que un límite inferior.PlayerControllerX permite al jugador lanzar perros al presionar la barra espaciadora, pero añade un intervalo de espera de un segundo (espera = 1). Esto se logra verificando que el tiempo actual (Time.time) sea mayor que el momento de la siguiente aparición permitida, registrado en la variable siguiente. SpawnManagerX permite la aparición de pelotas desde una posición superior a la pantalla en intervalos aleatorios. En el método SpawnRandomBall, se genera un intervalo de aparición aleatorio entre 2 y 4 segundos y una posición x aleatoria dentro de los límites.
 </p> 
 
   * > [Aplicación Unity](https://github.com/kueb0/Videojuegos-Unity/blob/main/Desaf%C3%ADos/Challenge2/Challenge2.unitypackage)
