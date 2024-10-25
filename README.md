@@ -146,7 +146,13 @@ En cuanto a los scripts, se añadieron varias clases nuevas. Character es una cl
 
   * > Descripción: 
 <p align="justify">
-
+Se implementó una barra de salud que se actualiza visualmente cuando el jugador recoge corazones y se le incrementan sus puntos de vida. Para lograrlo, se creó un canvas en la vista jerárquica del juego, el cual fue renombrado como HealthBarObject. Dentro de este objeto, se configuraron varios sprites que conforman la barra de salud, comenzando con una imagen de fondo llamada Background, que contiene a su vez un objeto con máscara llamado BarMask. Este último incluye una imagen denominada Meter, la cual representa el medidor que irá llenándose a medida que el jugador recupere salud. También se importaron fuentes personalizadas y se añadió un objeto de texto sobre el fondo de la barra, en el cual se mostrará el puntaje que va acumulando el jugador.
+</p> 
+<p align="justify">
+Para controlar el funcionamiento de la barra de salud, se creó un script llamado HealthBar. Este script utiliza componentes de la interfaz gráfica, como Image y Text, para modificar tanto el medidor de salud como el texto mostrado, basado en los puntos de vida del jugador. En el script, se hace referencia a un jugador (character) y se inicializa la barra de salud con un valor de cero. Durante la ejecución del juego, el medidor de la barra se actualiza continuamente con base en la proporción entre los puntos de vida actuales y los máximos permitidos.
+</p> 
+<p align="justify">
+Además, se modificó la clase Character para incluir una variable hitPoints, que almacena los puntos de vida del jugador, así como el valor máximo que puede alcanzar (maxHitPoints). La clase Player, que hereda de Character, fue actualizada para manejar la interacción del jugador con la barra de salud. Cuando el jugador recoge un objeto con la etiqueta CanBePickedUp, como un corazón, se incrementan los puntos de vida y la barra se actualiza. Si los puntos de vida se modifican, el objeto consumido desaparece de la escena.
 </p> 
 
   * > [Aplicación Unity](https://github.com/kueb0/Videojuegos-Unity/blob/main/Prototipos/FirstGame2D/Parte%205/FirsGame2D_PARTE5.unitypackage)
