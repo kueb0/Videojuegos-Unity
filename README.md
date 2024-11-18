@@ -17,6 +17,7 @@
     - [Parte 3](#parte-3)
     - [Parte 4](#parte-4)
     - [Parte 5](#parte-5)
+    - [Parte 6](#parte-6)
 - [Desafíos](#desafíos)
   - [Desafío 1](#desafío-1)
   - [Desafío 2](#desafío-2)
@@ -159,18 +160,26 @@ Además, se modificó la clase Character para incluir una variable hitPoints, qu
   * > [Evidencia del proceso](https://github.com/kueb0/Videojuegos-Unity/blob/main/Prototipos/FirstGame2D/Parte%205/FirsGame2D_PARTE5.pdf)
   * > Creado el 19 de octubre del 2024 por Sandra Karina Álvarez González.
 
-<!-- #### PARTE 6 
+### PARTE 6 
 <p align="center">
-  <img src="")
+  <img src="https://github.com/user-attachments/assets/68e63bcb-fa5d-42d6-8b02-2457a8096796")
 </p>
 
   * > Descripción: 
-<p align="justify">
 
+<p align="justify">
+En esta parte, se añadió un enemigo al juego 2D con movimiento dinámico y capacidad de interacción con el jugador. Se configuró un prefab del enemigo con un Circle Collider 2D (radio 1, activado IsTrigger) y un Animator que alterna entre las animaciones de caminar (walk) e inactivo (idle). Al enemigo se le asignó el script Wander.cs, que permite un movimiento aleatorio o persecución del jugador según corresponda.
 </p> 
-  * > [Aplicación Unity]()
-  * > [Evidencia del proceso]()
-  * > Creado el 13 de octubre del 2024 por Sandra Karina Álvarez González. -->
+<p align="justify">
+El script define velocidades para deambular (0.8) y perseguir (1.4), con cambios de dirección cada 3 segundos. Cuando el enemigo detecta al jugador, lo persigue y reduce su barra de salud en 10 puntos con cada colisión. Si los puntos llegan a 0, el jugador se desactiva. Al salir del rango del jugador, el enemigo vuelve a deambular.
+</p> 
+<p align="justify">
+Este sistema proporciona una mecánica interactiva y dinámica al enemigo, mejorando la jugabilidad y las interacciones dentro del juego.
+</p> 
+
+  * > [Aplicación Unity](https://github.com/kueb0/Videojuegos-Unity/blob/main/Prototipos/FirstGame2D/Parte%206/FirstGame2D_Parte6.unitypackage)
+  * > [Evidencia del proceso](https://github.com/kueb0/Videojuegos-Unity/blob/main/Prototipos/FirstGame2D/Parte%206/FirstGame2D_PARTE6.pdf)
+  * > Creado el 15 de noviembre del 2024 por Sandra Karina Álvarez González.
 
 ## Desafíos
 
