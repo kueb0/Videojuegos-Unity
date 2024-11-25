@@ -21,6 +21,7 @@
 - [Desafíos](#desafíos)
   - [Desafío 1](#desafío-1)
   - [Desafío 2](#desafío-2)
+  - [Desafío 3](#desafío-3)
 - [Autor](#autora)
 
 ## Lecciones
@@ -217,21 +218,21 @@ Posteriormente, se corrigieron tres scripts. DestroyOutOfBoundsX destruye objeto
   * > [Evidencia del proceso](https://github.com/kueb0/Videojuegos-Unity/blob/main/Desaf%C3%ADos/Challenge2/Challenge2.pdf)
   * > Creado el 18 de octubre del 2024 por Sandra Karina Álvarez González. 
 
-  <!-- ### Desafío 3
+### Desafío 3
 <p align="center">
-  <img src="")
+  <img src="https://github.com/user-attachments/assets/85739461-827a-4cae-bb4b-63c083525c95")
 </p>
 
   * > Descripción: 
 <p align="justify">
-
+En este desafío se configuró un entorno de juego utilizando un Tilemap con dos capas: suelo y objetos colisionables, empleando los tile maps del paquete Pixel Art Top Down - Basic (Obtenido de Unity Assets Store). Se añadieron dos personajes, un jugador y un enemigo, ambos con animaciones de movimiento en cuatro direcciones (norte, sur, este, oeste). Para el jugador, se implementó un script que permite controlarlo mediante las teclas de dirección. El enemigo, configurado con un script similar, responde a teclas específicas (J, K, L, Y) para simular su movimiento. Ambos scripts gestionan el movimiento físico con RigidBody2D y las transiciones de animaciones mediante Animator, asegurando fluidez y consistencia en la velocidad.
 </p> 
 
-  * > [Aplicación Unity]()
-  * > [Evidencia del proceso]()
-  * > Creado el 13 de octubre del 2024 por Sandra Karina Álvarez González. 
+  * > [Aplicación Unity](https://github.com/kueb0/Videojuegos-Unity/blob/main/Desaf%C3%ADos/Challenge3/Challenge3_Movimiento2D.unitypackage)
+  * > [Evidencia del proceso](https://github.com/kueb0/Videojuegos-Unity/blob/main/Desaf%C3%ADos/Challenge3/Challenge3.pdf)
+  * > Creado el 24 de noviembre del 2024 por Sandra Karina Álvarez González. 
 
-  ### Desafío 4
+<!--  ### Desafío 4
 <p align="center">
   <img src="")
 </p>
