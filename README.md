@@ -22,6 +22,7 @@
   - [Desafío 1](#desafío-1)
   - [Desafío 2](#desafío-2)
   - [Desafío 3](#desafío-3)
+  - [Desafío 4](#desafío-4)
 - [Autor](#autora)
 
 ## Lecciones
@@ -232,33 +233,22 @@ En este desafío se configuró un entorno de juego utilizando un Tilemap con dos
   * > [Evidencia del proceso](https://github.com/kueb0/Videojuegos-Unity/blob/main/Desaf%C3%ADos/Challenge3/Challenge3.pdf)
   * > Creado el 24 de noviembre del 2024 por Sandra Karina Álvarez González. 
 
-<!--  ### Desafío 4
+### Desafío 4
 <p align="center">
-  <img src="")
+  <img src="https://github.com/user-attachments/assets/c0cf30d3-69cd-4032-b1e0-445c8e495a12")
 </p>
 
   * > Descripción: 
 <p align="justify">
-
+Se configuraron tres escenas en Unity: Menu, Pantalla1 y Pantalla2. En cada una se añadió un Canvas con un Panel que contiene los botones necesarios. Se creó un script `cambioEscena` con el método LoadScene(string sceneName), que usa SceneManager.LoadScene para cambiar entre escenas. Los botones se configuraron asignando el script al canvas y a su vez el canvas al evento onClick, pasando el nombre de la escena como parámetro. 
 </p> 
-
-  * > [Aplicación Unity]()
-  * > [Evidencia del proceso]()
-  * > Creado el 13 de octubre del 2024 por Sandra Karina Álvarez González. 
-
-  ### Desafío 5
-<p align="center">
-  <img src="")
-</p>
-
-  * > Descripción: 
 <p align="justify">
-
+En Build Settings, se añadieron las tres escenas y se verificó que los botones fueran interactivos y que usaran la opción `Runtime Only`. Finalmente, se revisó que no hubiera elementos bloqueando los botones y que los Canvas y Event Systems estuvieran correctamente configurados.
 </p> 
 
-  * > [Aplicación Unity]()
-  * > [Evidencia del proceso]()
-  * > Creado el 13 de octubre del 2024 por Sandra Karina Álvarez González.-->
+  * > [Aplicación Unity](https://github.com/kueb0/Videojuegos-Unity/blob/main/Desaf%C3%ADos/Challenge4/challenge4.unitypackage)
+  * > [Evidencia del proceso](https://github.com/kueb0/Videojuegos-Unity/blob/main/Desaf%C3%ADos/Challenge4/challenge4.pdf)
+  * > Creado el 24 de noviembre del 2024 por Sandra Karina Álvarez González. 
 
 
 ## Autora
